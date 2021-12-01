@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Welcome To Mirna</string>
+    <string name="app_welcome_page">Mirna</string>
+    
+    <string name="bottom_home_item">Home</string>
+    <string name="bottom_collection_item">Collection</string>
+    <string name="bottom_add_plant_item">Add</string>
+    <string name="bottom_orders_item">Orders</string>
+    <string name="meals_page">Meals</string>
+    <string name="orders_page">Orders</string>
+
+    <!--home page-->
+    <string name="home_page_title">To Discover</string>
+    <string name="home_page_last_plants_section">More Details</string>
+
+    <!--collection page-->
+    <string name="collection_page_title">My favourites</string>
+
+    <!--Register Plant page-->
+    <string name="add_plant_page_title">Add A Meal</string>
+    <string name="add_plant_page_upload_button">Upload Image</string>
+    <string name="add_plant_page_name_input">@string/item_plant_name </string>
+    <string name="add_plant_page_description_button">@string/item_plant_description</string>
+    <string-array name="add_plant_page_type_spinner_input">
+        <item>salads</item>
+        <item>sandwiches</item>
+        <item>dishes</item>
+        <item>pizza</item>
+    </string-array>
+
+    <string-array name="add_plant_page_water_spinner_input">
+        <item>Consommation : Faible</item>
+        <item>Consommation : Moyenne</item>
+        <item>Consommation : Elevee</item>
+    </string-array>
+
+    <string name="add_plant_page_confirm_button">Confirm</string>
+
+    <!-- Plant Details PopUp-->
+    <string name="popup_plant_name">Plant Name</string>
+    <string name="popup_plant_description_title">Description</string>
+    <string name="popup_plant_description_subtitle">Petite description</string>
+    <string name="popup_plant_grow_title">Croissance</string>
+    <string name="popup_plant_grow_subtitle">Lente</string>
+    <string name="popup_plant_water_title">Consommation Eau</string>
+    <string name="popup_plant_water_subtitle">Faible</string>
+
+    <!--plant-->
+    <string name="item_plant_name">The Meal Name </string>
+    <string name="item_plant_description">The Meal Description</string>
+
+    <!-- Menu of Meals-->
+    <string name="pizza_meal">Pizza</string>
+    <string name="dishes_meal">Dishes</string>
+    <string name="sandwich_meal">Sandwiches</string>
+    <string name="salad_meal">Salads</string>
+
+
+    <!-- Condiments-->
+    <string name="harissa">Harissa</string>
+    <string name="mayonnaise">Mayonnaise</string>
+    <string name="ketchup">Ketchup</string>
+    <string name="condiments">Condiments</string>
+    <string name="table_number">Table Number</string>
+
+    <string-array name="table_number">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+</resources>

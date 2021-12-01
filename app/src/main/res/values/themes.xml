@@ -1,0 +1,58 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.RosesCol" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+        <item name="android:spinnerItemStyle">@style/spinnerStyle</item>
+        <item name="android:spinnerDropDownItemStyle">@style/spinnerStyle</item>
+    </style>
+
+    <!-- create styles for text-->
+    <style name="DefaultTextStyle">
+        <item name="android:textColor">@color/LightGray</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/kanit</item>
+    </style>
+
+    <style name="spinnerStyle">
+        <item name="android:textColor">@color/DarkGray</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/kanit</item>
+    </style>
+
+    <style name="SubTitleTextStyle" parent="DefaultTextStyle">
+        <item name="android:textColor">@color/DarkGray</item>
+    </style>
+
+    <style name="TitleTextStyle" parent="SubTitleTextStyle">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="bottomNavogationTheme" parent="Widget.Design.BottomNavigationView">
+        <item name="android:textSize">18sp</item>
+        <item name="fontFamily">@font/kanit</item>
+    </style>
+
+    <style name="MenuMeals">
+        <item name="android:textColor">@color/Orange</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/kanit</item>
+    </style>
+
+    <style name="AppName">
+        <item name="android:textColor">@color/Brown</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:fontFamily">@font/kanit</item>
+    </style>
+
+</resources>
